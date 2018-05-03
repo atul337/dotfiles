@@ -1,0 +1,13 @@
+{
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": false,
+    "editor.matchBrackets": false,
+    "files.autoSave": "on",
+    "workbench.colorTheme": "Atom One Dark",
+    "window.zoomLevel": 0,
+    "extensions.autoUpdate": true,
+    "C_Cpp.autocomplete": "Default",
+    "explorer.confirmDelete": false,
+}
