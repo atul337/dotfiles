@@ -13,8 +13,11 @@ alias vi='vim'
 alias cp='cp -r'
 alias rm='rm -r'
 alias open='xdg-open'
+alias off='shutdown -h now'
+alias update='sudo dnf update -y'
+alias sshgo='ssh ankur.cs17@172.16.1.3'
 
-
-export PS1="\[\e[34m\][\[\e[m\]\[\e[34m\]\u\[\e[m\]\[\e[34m\]@\[\e[m\]\[\e[34m\]\h\[\e[m\]\[\e[34m\]]:\[\e[m\]\[\e[34m\]_\$ \[\e[m\]\[\e[36m\]\\w\[\e[m\] "
-
+export PS1="\[\033[38;5;10m\][\u@\H]:_\\$ \w\\[$(tput sgr0)\]\[\033[38;5;14m\]\n-> \[$(tput sgr0)\]"
 export TERM=xterm-256color
+
+
